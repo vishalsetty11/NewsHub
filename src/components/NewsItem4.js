@@ -4,12 +4,15 @@ export class NewsItem extends Component {
   render() {
     return (
       <>
-        <div className="card my-4" style={{ width: "18rem" }}>
+        <div
+          className="card my-4"
+          style={{ width: "18rem", backgroundColor: "#2e2e2e", color: "#fff" }}
+        >
           <img
-            src="https://picsum.photos/id/870/200/300?grayscale&blur=2"
+            src="https://images.unsplash.com/photo-1515364310571-7b89b0bc681c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ha2VkfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
             className="card-img-top"
             alt="Image missing"
-            height={"200px"}
+            height={"400px"}
             width={"300px"}
           />
           <div className="card-body">
@@ -18,7 +21,7 @@ export class NewsItem extends Component {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="/" className="btn btn-primary" target="_blank">
+            <a href="/" className="btn btn-dark" target="_blank">
               For more information.
             </a>
           </div>
