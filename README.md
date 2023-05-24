@@ -1,4 +1,4 @@
-NewsHub is made using react.js
+NewsHub is built using class-based components using Reactjs.
 
 The link 'https://vishalsetty11.github.io/NewsHub/' would show 'Error 404' beacuse we have used 'react-router-dom' and git dosn't support router-dom.
 
