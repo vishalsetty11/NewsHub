@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import NewsItem1 from "./NewsItem1";
-import NewsItem2 from "./NewsItem2";
-import NewsItem3 from "./NewsItem3";
-import NewsItem4 from "./NewsItem4";
+import NewsItem from "./NewsItem";
+
 
 export class News extends Component {
   render() {
@@ -13,20 +11,20 @@ export class News extends Component {
           {/* Row 1 */}
           <div className="row">
             <div className="col">
-              <NewsItem1 />
+              <NewsItem />
             </div>
             <div className="col">
-              <NewsItem2 />
+              <NewsItem />
             </div>
             <div className="col">
-              <NewsItem3 />
+              <NewsItem />
             </div>
           </div>
 
           {/* Row2 */}
           <div className="row">
             <div className="col">
-              <NewsItem4 />
+              <NewsItem />
             </div>
           </div>
         </div>

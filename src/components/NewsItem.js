@@ -9,7 +9,7 @@ export class NewsItem extends Component {
           style={{ width: "18rem", backgroundColor: "#2e2e2e", color: "#fff" }}
         >
           <img
-            src="https://images.unsplash.com/photo-1515364310571-7b89b0bc681c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ha2VkfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            src="https://picsum.photos/200/300?random=1"
             className="card-img-top"
             alt="Image missing"
             height={"400px"}
