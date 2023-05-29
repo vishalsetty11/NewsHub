@@ -14,7 +14,9 @@ export class News extends Component {
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
-    this.setState({ article: parsedData.articles });
+    this.setState({ article: parsedData.articles }, () => {
+      console.log("State updated:", this.state.article);
+    });
   }
 
   handleNextClick = async () => {
@@ -25,7 +27,9 @@ export class News extends Component {
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
-    this.setState({ article: parsedData.articles });
+    this.setState({ article: parsedData.articles }, () => {
+      console.log("State updated:", this.state.article);
+    });
   };
 
   handlePrevClick = async () => {
@@ -36,10 +40,13 @@ export class News extends Component {
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
-    this.setState({ article: parsedData.articles });
+    this.setState({ article: parsedData.articles }, () => {
+      console.log("State updated:", this.state.article);
+    });
   };
 
   render() {
+    console.log("Rendering:", this.state.article);
     return (
       <>
         <div className="container mt-3">
