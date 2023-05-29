@@ -6,7 +6,7 @@ import News from "./components/News";
 function App() {
   return (
     <>
-      <Navbar title="NewsHub" subTitle1="About" />
+      <Navbar mainTitle="NewsHub" subTitle1="About" />
       <News/>
       <Footer/>
     </>
